@@ -1,25 +1,12 @@
-<table border="1">
+<table border="1" align="center">
   <tr>
-    <th>
-      FirstName
-    </th>
-    <th>
-      LastName
-    </th>
-    <th>
-      Email
-    </th>
-    <th>
-      Phone
-    </th>
-    <th>
-      City
-    </th>
-    <th>
-      country
-    </th>
-  </tr>
-  
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>City</th>
+    <th>country</th>
+  </tr>  
   <tr *ngFor = "let emp of allEmployees | async">
     <td >{{emp.firstName}}</td>
     <td >{{emp.lastName}}</td>
